@@ -12,5 +12,6 @@
 			]
 		}
 	},
-	"updateContentCommand": "npm install -g @devcontainers/cli"
+	"onCreateCommand": "npm install -g @devcontainers/cli", // used for caching and rebuild
+	"updateContentCommand": "npm update -g @devcontainers/cli" // make sure we're up to date
 }
