@@ -1,0 +1,7 @@
+{
+	"name": "Flutter SDK",
+    "image": "mcr.microsoft.com/devcontainers/${templateOption:imageVariant}",
+    "features": {
+        "ghcr.io/jarrodcolburn/features/flutter-sdk:0": {}
+    },
+}

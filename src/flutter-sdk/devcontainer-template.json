@@ -1,0 +1,26 @@
+{
+    "id": "flutter-sdk",
+    "version": "0.0.1",
+    "name": "Flutter SDK",
+    "description": "Build an app in Flutter",
+    "image": "mcr.microsoft.com/devcontainers/${templateOption:imageVariant}",
+    "documentationURL": "https://github.com/jarrodcolburn/tempaltes/tree/main/src/flutter-sdk",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon):",
+            "enum": [
+                "jammy",
+                "focal",
+                "bionic"
+            ],
+            "default": "jammy"
+        }
+    },
+    "features": {
+        "ghcr.io/jarrodcolburn/features/flutter-sdk:0": {}
+    },
+    "keyword": [
+        "Flutter"
+    ]
+}
