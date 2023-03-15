@@ -1,8 +1,11 @@
 {
     "id": "flutter-sdk",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "name" : "Flutter",
     "description": "Build an app in Flutter",
     "documentationURL": "https://github.com/jarrodcolburn/tempaltes/tree/main/src/flutter-sdk",
+    "publisher" : "Jarrod Colburn",
+    "licenseURL" : "https://github.com/devcontainers/templates/blob/main/LICENSE" ,
     "options": {
         "imageVariant": {
             "type": "string",
@@ -15,7 +18,6 @@
             "default": "jammy"
         }
     },
-
     "keyword": [
         "Flutter"
     ]
