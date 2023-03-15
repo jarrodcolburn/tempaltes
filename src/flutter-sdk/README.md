@@ -1,5 +1,5 @@
 
-# flutter-sdk
+# Flutter (flutter-sdk)
 
 Build an app in Flutter
 
@@ -13,4 +13,4 @@ Build an app in Flutter
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/jarrodcolburn/tempaltes/blob/main/src/flutter-sdk/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/jarrodcolburn/templates/blob/main/src/flutter-sdk/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
