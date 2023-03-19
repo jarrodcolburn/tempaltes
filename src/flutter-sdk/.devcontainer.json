@@ -1,6 +1,6 @@
 {
     "name": "Flutter SDK",
-    "image": "mcr.microsoft.com/devcontainers/${templateOption:imageVariant}",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:0-${templateOption:imageVariant}",
     "features": {
         "ghcr.io/jarrodcolburn/features/flutter-sdk:0": {}
     }
