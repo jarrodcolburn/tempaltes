@@ -1,6 +1,6 @@
 {
     "id": "flutter-sdk",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "name" : "Flutter",
     "description": "Build an app in Flutter",
     "documentationURL": "https://github.com/jarrodcolburn/tempaltes/tree/main/src/flutter-sdk",
@@ -9,13 +9,19 @@
     "options": {
         "imageVariant": {
             "type": "string",
-            "description": "Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon):",
-            "enum": [
-                "jammy",
-                "focal",
-                "bionic"
+            "description": "Node.js version (use -bullseye variants on local arm64/Apple Silicon):",
+            "proposals": [
+                "18",
+                "16",
+                "14",
+                "18-bullseye",
+                "16-bullseye",
+                "14-bullseye",
+                "18-buster",
+                "16-buster",
+                "14-buster"
             ],
-            "default": "jammy"
+            "default": "18"
         }
     },
     "keyword": [
